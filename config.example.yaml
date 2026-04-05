@@ -1,0 +1,29 @@
+# til config file
+# Default location: ~/.til/config.yaml
+# Override with TIL_CONFIG env var or --config CLI option.
+
+# ── Required ──────────────────────────────────────────────────────────────────
+
+# Root directory for your notes.  TIL notes live in notes_dir/TIL/ and
+# images in notes_dir/images/.
+notes_dir: ~/notes
+
+# ── Optional ──────────────────────────────────────────────────────────────────
+
+# Local clone of your blog repository (required for `til publish`).
+blog_repo: ~/blog
+
+# Subdirectory inside notes_dir where TIL markdown files are stored.
+# Default: TIL
+til_subdir: TIL
+
+# Subdirectory inside notes_dir where images are stored.
+# Default: images
+images_subdir: images
+
+# Subdirectory inside blog_repo where published TIL notes are written.
+# Default: til
+blog_til_subdir: til
+
+# Default author name added to front matter (optional).
+author: ""
